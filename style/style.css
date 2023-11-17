@@ -1,0 +1,74 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background: whitesmoke;
+}
+button{
+    cursor: pointer;
+}
+.container{
+    max-width: 900px;
+    width: 80%;
+    height: 30%;
+    margin: 0 auto;
+    margin-top: 40px;
+    background: white;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0.5px 1px 2px 2px gray;
+}
+.heading{
+    margin-left: 300px;
+    font-size: 3.7em;
+    padding-top: 30px;
+}
+.input{
+    width: 80%;
+    height: 30px;
+    margin-left: 30px;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+.button{
+    width: 60px;
+    height: 36px;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 7px;
+    background: rgb(75, 185, 150);
+    transition: 0.3s;
+    
+}
+.button:hover{
+    background: gray;
+}
+
+.list{  
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 80%;
+    border-top: 1px solid gray;
+}
+
+.checkbox{
+    width: 30px;
+    height: 30px;
+    margin-top: 0px;
+    margin-left: 60px;
+}
+.text{
+    padding-left: 50px;
+}
+.del-btn{
+    width: 80px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    margin-left: 350px;
+}
